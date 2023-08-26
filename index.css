@@ -1,0 +1,122 @@
+.icons{
+  text-align: right;
+ 
+}
+.icons a{
+  text-decoration: none;
+  margin-right: 5px;
+  display: inline-block;
+  padding-inline: 0.5em;
+}
+.fa-brands.fa-github-alt.fa-2xl{
+  color:darkslategray;
+}
+.fa-brands.fa-github-alt.fa-2xl:hover{
+  color:rgb(144, 159, 229);
+}
+.fa-brands.fa-instagram.fa-2xl{
+  color:darkslategray;
+}
+.fa-brands.fa-instagram.fa-2xl:hover{
+  color:rgb(144, 159, 229);
+}
+.fa-brands.fa-linkedin-in.fa-2xl{
+  color:darkslategray;
+}
+.fa-brands.fa-linkedin-in.fa-2xl:hover{
+  color:rgb(144, 159, 229);
+}
+.fa-regular.fa-envelope.fa-2xl{
+  color:darkslategray;
+}
+.fa-regular.fa-envelope.fa-2xl:hover{
+  color:rgb(144, 159, 229);
+}
+body{
+  background-color: rgb(20, 19, 19);
+
+}
+.bars{
+  color:darkslategray;
+  display: inline-block;
+}
+.bars:hover{
+  color:rgb(144, 159, 229);
+}
+*{
+  margin:0;
+  padding: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 45%;
+}
+section{
+  display: block;
+  
+}
+.home-content.text-animate{
+  position: relative;
+  width: auto;
+}
+div{
+  display: block;
+}
+.home-content{
+  text-align: center;
+  max-width: 600rem;
+}
+.btn-box .btn{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vmax;
+  height: 3vmax;
+  background: blanchedalmond;
+  border: 0.2rem solid blanchedalmond;
+  border-radius: 1.8rem;
+  font-size: 1.4vmax;
+  font-weight: 500;
+  color: rgb(16, 19, 25);
+  z-index: 1;
+  overflow: hidden;
+  animation-name: animation ;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.home-content h1{
+  color: blanchedalmond;
+  font-size: 4.3vmax;
+  font-weight: 700;
+  line-height: 1.3;
+  width: auto;
+
+}
+@keyframes animation{
+0% {
+    transform: scale(0);
+}
+50% {
+    transform: scale(1.1);
+}
+100% {
+    transform: scale(1);
+}
+}
+a:hover{
+  text-decoration-line: underline;
+  background-color: rgb(203, 164, 106);
+}
+#back{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
